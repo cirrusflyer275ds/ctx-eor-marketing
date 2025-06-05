@@ -71,16 +71,31 @@
         <button type="submit">Send Message</button>
       </form>
     </section>
-
-    <section class="calendar-embed" id="calendar">
-  <h3>📆 Schedule a Call</h3>
-  <p>Book directly into our calendar with a few clicks:</p>
-
-  <!-- Calendly inline widget begin -->
+<!-- Calendly Booking Section -->
+<section class="calendar-embed" id="calendar">
+  <h3>📆 Book a Time That Works for You</h3>
+  <p>Schedule a quick intro call with our team:</p>
   <div class="calendly-inline-widget" data-url="https://calendly.com/ctx-eor/prospect-meeting" style="min-width:320px;height:700px;"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <!-- Calendly inline widget end -->
 </section>
+
+<!-- Contact Form (Visual Only) -->
+<section class="contact-form">
+  <h3>📩 Contact Form</h3>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your full name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..."></textarea><br><br>
+
+    <button type="submit" disabled>Submit (Demo Only)</button>
+  </form>
+</section>
+
 
   </main>
 
