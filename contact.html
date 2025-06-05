@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,54 +48,34 @@
 
       <h3>✅ Already Have a Candidate?</h3>
       <p>We can start onboarding within 24 hours. Just send us their name and state, and we'll take it from there.</p>
-      <p>Still not sure if trial hiring is right for you?</p>
       <ul>
         <li><a href="/services.html">See how it works</a></li>
         <li><a href="/about.html">Review our employer overview</a></li>
       </ul>
     </section>
 
+    <section class="calendar-embed" id="calendar">
+      <h3>📆 Book a Time That Works for You</h3>
+      <p>Schedule a quick intro call with our team:</p>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/ctx-eor/prospect-meeting" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </section>
+
     <section class="contact-form">
-      <h3>📨 Contact Form</h3>
+      <h3>📩 Contact Form</h3>
       <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" placeholder="Your full name" required /><br /><br />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="you@example.com" required /><br /><br />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..." required></textarea><br /><br />
 
-        <button type="submit">Send Message</button>
+        <button type="submit" disabled>Submit (Demo Only)</button>
       </form>
     </section>
-<!-- Calendly Booking Section -->
-<section class="calendar-embed" id="calendar">
-  <h3>📆 Book a Time That Works for You</h3>
-  <p>Schedule a quick intro call with our team:</p>
-  <div class="calendly-inline-widget" data-url="https://calendly.com/ctx-eor/prospect-meeting" style="min-width:320px;height:700px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-</section>
-
-<!-- Contact Form (Visual Only) -->
-<section class="contact-form">
-  <h3>📩 Contact Form</h3>
-  <form>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" placeholder="Your full name"><br><br>
-
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
-
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..."></textarea><br><br>
-
-    <button type="submit" disabled>Submit (Demo Only)</button>
-  </form>
-</section>
-
-
   </main>
 
   <footer class="footer">
@@ -105,5 +84,4 @@
     </div>
   </footer>
 </body>
-
 </html>
